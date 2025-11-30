@@ -19,14 +19,14 @@ PROJECT_URL = os.environ.get('PROJECT_URL', '')
 AUTO_ACCESS = os.environ.get('AUTO_ACCESS', 'false').lower() == 'true'
 FILE_PATH = os.environ.get('FILE_PATH', './.cache')
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')
-UUID = os.environ.get('UUID', '20e6e496-cf19-45c8-b883-14f5e11cd9f1')
-NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')
+UUID = os.environ.get('UUID', '6045c7a9-e21f-4c7f-9255-a6b1416d2826')
+NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'fastmeo.eu.org:8008')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
-NEZHA_KEY = os.environ.get('NEZHA_KEY', '')
-ARGO_DOMAIN = os.environ.get('ARGO_DOMAIN', '')
-ARGO_AUTH = os.environ.get('ARGO_AUTH', '')
+NEZHA_KEY = os.environ.get('NEZHA_KEY', 'Nightelf123')
+ARGO_DOMAIN = os.environ.get('ARGO_DOMAIN', 'st.7zip.ggff.net')
+ARGO_AUTH = os.environ.get('ARGO_AUTH', 'eyJhIjoiY2VmMzIyMjZhNmZiMGVhMmQ4YTNmYzMwZjM5MzA3ZDkiLCJ0IjoiYjA4ZTM5OGUtNTIxOC00N2E1LWFjNzAtMzUwMDU3ZmU3ZDQ5IiwicyI6Ik5qZzFPRFZtWm1ZdE1qRmpZaTAwTVdZMExXRmhNREF0TkRJeVpqRmpaR0UwWmpNMSJ9')
 ARGO_PORT = int(os.environ.get('ARGO_PORT', '8001'))
-CFIP = os.environ.get('CFIP', 'www.visa.com.tw')
+CFIP = os.environ.get('CFIP', 'saas.sin.fan')
 CFPORT = int(os.environ.get('CFPORT', '443'))
 NAME = os.environ.get('NAME', 'Vls')
 CHAT_ID = os.environ.get('CHAT_ID', '')
@@ -620,4 +620,5 @@ def main():
     handle_page_routing()
 
 if __name__ == "__main__":
+
     main()
